@@ -40,13 +40,16 @@
             </div>
             <ul class="nav__link nav__link--menu">
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Inicio</a>
+                    <a href="#inicio" class="nav__links">Inicio</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Acerca de</a>
+                    <a href="#acerca_de" class="nav__links">Acerca de</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Contacto</a>
+                    <a href="#nosotros" class="nav__links">Nosotros</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#contacto" class="nav__links">Contacto</a>
                 </li>
                 <img src="./src/x-circle.svg" class="nav__close" alt="Cerrar página">
             </ul>
@@ -54,36 +57,36 @@
                 <img src="./src/menu.svg" class="nav__img" alt="Menú de la página">
             </div>
         </nav>
-        <section class="hero__container container">
+        <section id = "inicio" class="hero__container container">
             <h1 class="hero__title">UNMSM - FISI - Procesos de Software - GigantesSoftware</h1>
-            <p class="hero__paragraph">Somos un equipo de estudiantes que está practicando el desarrollo web y las formas de publicar nuestras páginas por medio de Azure</p>
+            <p class="hero__paragraph">Somos un equipo de estudiantes que está practicando el desarrollo web y las formas de publicar nuestras páginas por medio de la nube - Azure.</p>
             <a href="https://sistemas.unmsm.edu.pe/site/index.php" class="cta">Página de la FISI</a>
         </section>
     </header>
 
     <main>
         <!--Conocimientos para la carrera-->
-        <section class="container about">
+        <section id = "acerca_de" class="container about">
             <h2 class="subtitle">¿Qué necesitas para ser un Ingeniero de Software?</h2>
-            <p class="about__paragraph">Para ser ingeniero de Software necesita 3 esenciales características</p>
+            <p class="about__paragraph">Para ser ingeniero de Software necesita 3 esenciales características:</p>
             <div class="about__main">
 
                 <article class="about__icons">
                     <img src="./src/person.svg" class="about__icon" alt="Persona">
                     <h3 class="about__title">Autodidacta</h3>
-                    <p class="about__paragraph">Estar dispuesto a aprender por tu propia cuenta porque las tecnologías no paran de avanzar</p>
+                    <p class="about__paragraph">Estar dispuesto a aprender por tu propia cuenta porque las tecnologías no paran de avanzar.</p>
                 </article>
 
                 <article class="about__icons">
                     <img src="./src/brain.svg" class="about__icon" alt="Análisis">
                     <h3 class="about__title">Pensamiento Analítico</h3>
-                    <p class="about__paragraph">Ver los problemas en diferentes ángulos para hallarle la solución más eficiente</p>
+                    <p class="about__paragraph">Ver los problemas en diferentes ángulos para hallarle la solución más eficiente.</p>
                 </article>
 
                 <article class="about__icons">
                     <img src="./src/code.svg" class="about__icon" alt="Codear">
                     <h3 class="about__title">Pasión</h3>
-                    <p class="about__paragraph">Debes estar apasionado por el código y entenderlo</p>
+                    <p class="about__paragraph">Debes estar apasionado por el código y entenderlo.</p>
                 </article>
                 
             </div>
@@ -92,9 +95,9 @@
         <section class="knowledge">
             <div class="knowledge__cont container">
                 <div class="knowledge__texts">
-                    <h2 class="subtitle">¿Qué hacemos en Ingeniería de Software?</h2>
-                    <p class="knowledge__paragraph">En pocas palarbas vagamos en las clases. Nos quedamos dormidos pero en las noches a altas horas de la madrugada nos pica el bicho de codear y practicar :D //// Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque aut iste optio soluta non voluptate tempore culpa magnam veritatis officia, totam fugiat nesciunt dicta eum, minima libero molestiae at.</p>
-                    <a href="#" class="cta">Corre papi</a>
+                    <h2 class="subtitle">¿Qué implica estudiar Ingeniería de Software?</h2>
+                    <p class="knowledge__paragraph">La ingeniería de software es una carrera en la cual requieres del uso de herramientas, estructuras y ténicas para construir programas informáticos o en su defecto, analizarlos. Por otro lado, como se te exlpico en la sección anterior de la página, implica tener un amplio potencial de análisis del problema, una gran lógica, una buena disciplina y sobre todo, que te apasione buscar soluciones con estas nuevas herramientas.</p>
+                    <a href="https://micarrerauniversitaria.com/c-ingenieria/ingenieria-de-software/" class="cta">Más información</a>
                 </div>
                 
                 <figure class="knowledge__picture">
@@ -112,12 +115,12 @@
                     <h3 class="price__price">S/.30/semana</h3>
 
                     <div class="price__items">
-                        <p class="price__features">Applets</p>
+                        <p class="price__features">Estructura básica</p>
                         <p class="price__features">POO</p>
-                        <p class="price__features">Potito de Estiven</p>
+                        <p class="price__features">Applets</p>
                     </div>
 
-                    <a href="#" class="price__cta">Matriculate Culeao</a>
+                    <a href="#" class="price__cta">Matricularme</a>
                 </div>
 
                 <div class="price_element">
@@ -130,33 +133,33 @@
                         <p class="price__features">JavaScript</p>
                     </div>
 
-                    <a href="#" class="price__cta">Matriculate Culeao</a>
+                    <a href="#" class="price__cta">Matricularme</a>
                 </div>
 
                 <div class="price_element">
-                    <p class="price__name">Curso Programación básica</p>
+                    <p class="price__name">Curso Programación C++</p>
                     <h3 class="price__price">S/.20/semana</h3>
 
                     <div class="price__items">
-                        <p class="price__features">Bases de la programación</p>
-                        <p class="price__features">C++</p>
-                        <p class="price__features">Python</p>
+                        <p class="price__features">Variables</p>
+                        <p class="price__features">Estructuras repetitivas</p>
+                        <p class="price__features">Archivos</p>
                     </div>
 
-                    <a href="#" class="price__cta">Matriculate Culeao</a>
+                    <a href="#" class="price__cta">Matricularme</a>
                 </div>
 
             </div>  
         </section>
         <!--Sección del Equipo-->
-        <section class="testimony">
+        <section id = "nosotros" class="testimony">
             <div class="testimony__container container">
                 <img src="./src/leftarrow.svg" class="testimony__arrow" alt="Flecha para mover a la izquierda" id="before">
                 <!--Primer slide-->
                 <section class="testimony__body testimony__body--show" data-id="1">
                     <div class="testimony__texts">
                         <h2 class="subtitle">Somos los GigantesSoftware, <span class="testimony__course">Equipo para desarrollo de Software</span></h2>
-                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa, vel voluptatem et laborum a quis itaque iste, debitis tenetur nesciunt amet esse tempore corporis id quasi fugiat quam error?</p>
+                        <p class="testimony__review">Grupo conformado por estudiantes de la carera de Ingeniería de Software de la Facultad de Ingeniería de Sistemas e Informática de la Universidad Nacional Mayor de San Marcos.</p>
                     </div>
 
                     <figure class="testimony__picture">
@@ -167,33 +170,66 @@
                 <section class="testimony__body" data-id="2">
                     <div class="testimony__texts">
                         <h2 class="subtitle">Soy Rubén Mondragón, <span class="testimony__course">Estudiante de Ingeniería de Software</span></h2>
-                        <p class="testimony__review">Tírame tu gaaaaa papi</p>
+                        <p class="testimony__review">Soy una persona apasionada por el desarrollo web y el desarrollo en la nube.</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./src/sanmarquinos.jpg" class="testimony__img" alt="Estudiantes de San Marcos">
+                        <img src="./src/incognito.jpg" class="testimony__img" alt="Estudiantes de San Marcos">
                     </figure>
                 </section>
                 <!--Tercer slide-->
                 <section class="testimony__body" data-id="3">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Soy Estiven Hurtado, <span class="testimony__course">Estudiante de Ingeniería de Software</span></h2>
-                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa, vel voluptatem et laborum a quis itaque iste, debitis tenetur nesciunt amet esse tempore corporis id quasi fugiat quam error? PINKY IS LOVE PINFY IS LIFE</p>
+                        <h2 class="subtitle">Soy Ximena López, <span class="testimony__course">Estudiante de Ingeniería de Software</span></h2>
+                        <p class="testimony__review">Soy una persona apasionada por el desarrollo web y el desarrollo en la nube.</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./src/sanmarquinos.jpg" class="testimony__img" alt="Estudiantes de San Marcos">
+                        <img src="./src/incognito.jpg" class="testimony__img" alt="Estudiantes de San Marcos">
                     </figure>
                 </section>
                 <!--Cuarto slide-->
                 <section class="testimony__body" data-id="4">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Soy Ximena Lopez, <span class="testimony__course">Estudiante de Ingeniería de Software</span></h2>
-                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa, vel voluptatem et laborum a KHAKIKO IS LOVE KHALIKO IS LIFE</p>
+                        <h2 class="subtitle">Soy Estiven Hurtado, <span class="testimony__course">Estudiante de Ingeniería de Software</span></h2>
+                        <p class="testimony__review">Soy una persona apasionada por Java y el desarrollo en la nube.</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./src/sanmarquinos.jpg" class="testimony__img" alt="Estudiantes de San Marcos">
+                        <img src="./src/incognito.jpg" class="testimony__img" alt="Estudiantes de San Marcos">
+                    </figure>
+                </section>
+                <!--Quinto slide-->
+                <section class="testimony__body" data-id="5">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Soy Nicole Morales, <span class="testimony__course">Estudiante de Ingeniería de Software</span></h2>
+                        <p class="testimony__review">Soy una persona apasionada por el desarrollo web y el desarrollo en la nube.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./src/incognito.jpg" class="testimony__img" alt="Estudiantes de San Marcos">
+                    </figure>
+                </section>
+                <!--Sexto slide-->
+                <section class="testimony__body" data-id="6">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Soy Anthony Llactahuaman, <span class="testimony__course">Estudiante de Ingeniería de Software</span></h2>
+                        <p class="testimony__review">Soy una persona apasionada por el desarrollo web y el desarrollo en la nube.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./src/incognito.jpg" class="testimony__img" alt="Estudiantes de San Marcos">
+                    </figure>
+                </section>
+                <!--Séptimo slide-->
+                <section class="testimony__body" data-id="7">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Soy Cristina Martinez, <span class="testimony__course">Estudiante de Ingeniería de Software</span></h2>
+                        <p class="testimony__review">Soy una persona apasionada por el desarrollo web y el desarrollo en la nube.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./src/incognito.jpg" class="testimony__img" alt="Estudiantes de San Marcos">
                     </figure>
                 </section>
                 <img src="./src/rightarrow.svg" class="testimony__arrow" alt="Flecha para mover a la derecha" id="next">
@@ -207,22 +243,22 @@
             <section class="questions__container">
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">¿Las chicas se morirás por mi?
+                        <h3 class="questions__title">¿Cuál es el campo de aplicación de la Ingeniería de Software?
                             <span class="questions__arrow">
                                 <img src="./src/arrow.svg" class="questions__img" alt="Flecha desplegable para abajo">
                         </span>
                         </h3>
-                        <p class="questions__show">Solo te van a usar para ayudarles a hacer la tarea y estudiar pero solo eres un juguete</p>
+                        <p class="questions__show">El campo de aplicación de esta carrera es muy amplia debido a que es versátil en diferentes áreas como economía, desarrollo web, desarrollo de aplicaciones móviles, machine learning, etc. Así que si tu pregunta va relacionada a si vas a tener oportunidades laborales, en efecto será abundantes pero deberás prepararte para destacar.</p>
                     </div>
                 </article>
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">¿Terminaré en Malvinas?
+                        <h3 class="questions__title">¿Necesito tener amplio conocimiento de matemáticas?
                             <span class="questions__arrow">
                                 <img src="./src/arrow.svg" class="questions__img" alt="Flecha desplegable para abajo">
                         </span>
                         </h3>
-                        <p class="questions__show">Pa que te wa mentir papi, terminarás con tus rusas en las islas de Miami riéndote de esos pendejos :v</p>
+                        <p class="questions__show">Bajo nuestra experiencia te decimos que no es necesario, ya que tenemos varios compañeros que no dominan matemáticas pero esta llevando de buena manera la carrera, lo que sí es que debes ser una esponja de conocimientos ya que tendrás que aprnder un poco de todo durante tus 5 años de carrera.</p>
                     </div>
                 </article>
             </section>
@@ -230,37 +266,39 @@
 
     </main>
     <!--Pie de Página-->
-    <footer class="footer">
+    <footer id = "contacto" class="footer">
         <section class="footer__container container">
             <nav class="nav nav--footer">
                 <h2 class="footer__title">GigantesSoftware</h2>
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Inicio</a>
+                        <a href="#inicio" class="nav__links">Inicio</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Inicio</a>
+                        <a href="#acerca_de" class="nav__links">Acerca de</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Inicio</a>
+                        <a href="#nosotros" class="nav__links">Nosotros</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#contacto" class="nav__links">Contacto</a>
                     </li>
                 </ul>
             </nav>
-            <form class="footer__form" action="https://formspree.io/f/mzbylonr"
-            method="POST">
-                <h2 class="footer__subs">Suscribete papu</h2>
+            <form class="footer__form">
+                <h2 class="footer__subs">Suscribete</h2>
                 <div class="footer__inputs">
-                    <input type="email" placeholder="Email: " class="footer__input" name="_replyto">
+                    <input type="email" placeholder="Email: " class="footer__input">
                     <input type="submit" value="Regístrate: " class="footer__submit">
                 </div>
             </form>
         </section>
         <section class="footer__copy container">
             <div class="footer__social">
-                <a href="#" class="footer__icons"><img src="./src/tiktok.svg" class="footer__img" alt="Nuestro TikTok"></a>
-                <a href="#" class="footer__icons"><img src="./src/youtube.svg" class="footer__img" alt="Nuestro Youtube"></a>
+                <a href="https://www.tiktok.com/@gigantessoftwareunmsm?" class="footer__icons"><img src="./src/tiktok.svg" class="footer__img" alt="Nuestro TikTok"></a>
+                <a href="https://www.youtube.com/channel/UCBZU67GTT_m7R2uoinyYUyA" class="footer__icons"><img src="./src/youtube.svg" class="footer__img" alt="Nuestro Youtube"></a>
                 <a href="#" class="footer__icons"><img src="./src/instagram.svg" class="footer__img" alt="Nuestro Instagram"></a>
-                <a href="#" class="footer__icons"><img src="./src/github.svg" class="footer__img" alt="Nuestro GitHub"></a>
+                <a href="https://github.com/RubenM19" class="footer__icons"><img src="./src/github.svg" class="footer__img" alt="Nuestro GitHub"></a>
             </div>
             <h3 class="footer__copyright">Derechos reservados &copy; Rubén Mondragón</h3>
         </section>
